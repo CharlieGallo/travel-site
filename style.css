@@ -1,0 +1,99 @@
+
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    /* text-align: center; */
+}
+
+#top-section {
+    background-image: url("images/main_beach.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 343px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#visit-title {
+    border: solid #1D3557;
+    border-radius: 20px;
+    background: #1D3557;
+    padding: 3px 8px;
+}
+
+#visit-description {
+    border: 0 solid #457B9D;
+    border-radius: 20px;
+    background: #457B9D;
+    padding: 5px;
+    width: 400px;
+    margin: 10px;
+}
+
+h1, h3 {
+    margin: 0;
+}
+
+#activity-main-heading { 
+    padding: 40px;
+    font-weight: bold;
+}
+
+
+#activity-container {
+    background: #F1FAEE;
+    height: 378px; 
+    color: #1D3557;
+    text-align: center;
+}
+
+#activity-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.activity {
+    width: 240px;
+}
+
+.activity p {
+    font-size: small;
+    height: 60px;
+}
+
+#guide-container {
+    height: 394px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#guide-section {
+    border-radius: 10%;
+    width: 400px;
+    color: #1D3557;
+    background: #A8DADC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 5px;
+    padding: 20px;
+}
+
+#avatar {
+    height: 200px;
+    border-radius: 10%;
+}
